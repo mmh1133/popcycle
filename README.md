@@ -16,7 +16,7 @@ The output of each step is saved into a SQL database using `sqlite3`. To run `po
 
 2. Unzip the file
 
-3. Set up the paths of the necessary folders. To do so, edit the file globals.R in path/to/popcyle_repository/R/globals.R. 
+3. Set up the paths of the necessary folders. To do so, edit the file globals.R in path/to/popcyle_repository/R/globals.R. WARNINGS!!!!
 
 4. Open the terminal and go to the directory where popcycle is unzipped, and type:
 

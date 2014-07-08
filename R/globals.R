@@ -2,9 +2,9 @@
 ### MODIFY ACCORDINGLY ###
 ##########################
 
-evt.location <- '~/SeaFlow/datafiles/evt' # Path to the evt files for the real-time analysis
-instrument.location <- '/Volumes/evt' # Path to the evt files on the SeaFlow 
-cruise.id <- 'july2014' # Cruise name
+evt.location <- '/Volumes/seaflow/Rhodomonas_Feb2014' # Path to the evt files for the real-time or other SeaFlow analysis
+instrument.location <- '/Volumes/evt' # Path to the evt files on the SeaFlow, only need to change for real-time data 
+cruise.id <- 'Rhodo_feb_2014' # Cruise name
 
 
 
