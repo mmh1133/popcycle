@@ -2,7 +2,7 @@
 
 #### Initialization ####
 
-## Step 1 ##
+## step 1 ##
 
 library(popcycle)
 
@@ -14,7 +14,7 @@ plot.filter.cytogram(evt, notch=notch, width=0.5) #plots filteration
 setFilterParams(notch=notch, width=0.5) #saves filter parameters
 
 
-## Step 2 ## manual gating ## 
+## step 2 ## manual gating ## 
 
 #should be made clear that it is manual i.e. drawing
 #right click after closing gate
@@ -41,6 +41,19 @@ plot.vct.cytogram(opp, para.x='fsc_small', para.y='chl_small')
 plot.vct.cytogram(opp, para.x='fsc_small', para.y='pe')
 
 
+### since our rhodo culture is not real time data ###
+### reanalyzing previous SeaFlow file structure ### 
+
+## conversion of sds to sfl files and upload into database is done in terminal ##
+#maybe fix python steps to explain that it is still done in terminal 
+
+#with rhodo, sfl needs to be in same place as original evt files to set gate parameters and such - potential problem 
+
+## "Play" ##
+
+run.filter.v1('rhodo')
+
+run.gating.v1('rhodo')
 
 
 
