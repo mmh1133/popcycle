@@ -2,6 +2,9 @@
 
 #### Initialization ####
 
+# NEW COMMENT: maybe include at beginning a list of everything you need/things that are nice to have (R,python,sourcetree-nice to have, markdown used to edit readme, ect.) 
+
+
 ## step 1 ##
 
 library(popcycle)
@@ -47,7 +50,8 @@ plot.vct.cytogram(opp, para.x='fsc_small', para.y='pe')
 ## conversion of sds to sfl files and upload into database is done in terminal ##
 #maybe fix python steps to explain that it is still done in terminal 
 
-#with rhodo, sfl needs to be in same place as original evt files to set gate parameters and such - potential problem 
+#with rhodo, sfl needs to be in same place as original evt files to set gate parameters and such - potential problem
+
 
 ## "Play" ##
 
