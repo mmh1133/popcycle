@@ -55,9 +55,19 @@ plot.vct.cytogram(opp, para.x='fsc_small', para.y='pe')
 
 ## "Play" ##
 
-run.filter.v1('rhodo')
+run.filter.v1('/Volumes/seaflow/Rhodomonas_Feb2014')
 
 run.gating.v1('rhodo')
 
+get.evt.list()
 
+plot.cytogram.by.file("2014_055/61.evt",para.x="fsc_small", para.y="pe")
+plot.cytogram.by.file("2014_054/61.evt.opp")
 
+stat <- get.stat.table() # to load the aggregate statistics
+> plot.map(stat, pop='synecho', param='abundance') 
+> plot.time(stat, pop='synecho', param='abundance')
+
+sfl <- read.delim("/Users/mariaham/popcycle_repo/rhodo.sfl")
+sfl$FILE.DURATION <- 180
+write.delim(sfl, "/Users/mariaham/popcycle_repo/rhodo.sfl",quote=F, row.names=F)
